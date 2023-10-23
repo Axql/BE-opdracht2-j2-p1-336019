@@ -8,7 +8,6 @@ class InstructeurModel
     {
         $this->db = new Database();
     }
-
     public function getInstructeurs()
     {
         $sql = "SELECT Id
