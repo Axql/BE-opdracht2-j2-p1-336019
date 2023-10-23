@@ -12,7 +12,7 @@
 
 <body>
     <a href="<?= URLROOT . "/Homepage/" ?>">Back</a>
-    <div class="column center w-12 h-12">
+    <div>
         <u><?= $data['title']; ?></u>
         <p>Aantal instructeurs <?= $data['amount'] ?></p>
         <table>
