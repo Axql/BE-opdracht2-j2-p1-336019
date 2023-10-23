@@ -20,7 +20,7 @@
             Aantal sterren: <?= $data['personData']->AantalSterren ?>
         </p>
         <div class="row">
-            <p class="center message"><?= $data['message'] ?></p>
+            <p><?= $data['message'] ?></p>
             <a href="<?= URLROOT . '/instructeur/beschikbarenVoertuigen/' . $data['personData']->Id ?>">Voeg voertuig toe</a>
         </div>
 
