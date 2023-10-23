@@ -81,6 +81,7 @@ class InstructeurModel
 
         $this->db->resultSet();
     }
+
     public function deleteCarFromInstructeur($CarId, $PersonId)
     {
         $sql = "DELETE FROM voertuiginstructeur
