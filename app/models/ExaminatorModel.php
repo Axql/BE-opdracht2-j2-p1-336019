@@ -1,5 +1,4 @@
 <?php
-
 class ExaminatorModel
 {
     private $db;
