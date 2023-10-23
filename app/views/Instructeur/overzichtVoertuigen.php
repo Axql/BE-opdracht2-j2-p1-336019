@@ -21,7 +21,7 @@
         </p>
         <div class="row">
             <p class="center message"><?= $data['message'] ?></p>
-            <a class="button" href="<?= URLROOT . '/instructeur/beschikbarenVoertuigen/' . $data['personData']->Id ?>">Voeg voertuig toe</a>
+            <a href="<?= URLROOT . '/instructeur/beschikbarenVoertuigen/' . $data['personData']->Id ?>">Voeg voertuig toe</a>
         </div>
 
         <table>
